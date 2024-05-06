@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Kanit;
+
+}
+input, select, label {
+    cursor: pointer;
+}
+a, button {
+    cursor: pointer;
+    font-family: Kanit;
+    color: white;
+}
+
+body {
+    background-color: #EDEDF9;
+    width: 1200px;
+    margin-bottom: 37px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.f1-logo{
+    width: 100px;
+    padding-left: 25px;
+    padding-top: 35px;
+
+}
+
+.f1-logo-div{
+    height: 40px;
+    width: 140px;
+}
+
+.icons{
+    height: 13px;
+    color: white;
+}
+.main{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, #c43140, #f52727, #e84446, #f9535e, #fb9da6);
+    border-radius: 18px;
+    box-shadow: 0px 16px 35px -15px #02058426;
+    
+}
+.navbar{
+    position: relative;
+    background-color: transparent;
+    height: 70px;
+    width: 1200px;
+    z-index: 1000;
+}
+
+.csj-img{
+    height: 940px;
+    margin-top: -129px;
+    margin-left: 65px;
+}
+
+.csj-car{
+    position: absolute;
+    height: 700px;
+    left: 300px;
+    z-index: -1;
+    top: -10px;
+}
+
+.more-info-txt{
+    position: absolute;
+    font-family: Kanit;
+    top: 475px;
+    left: 673px;
+    font-size: 10px;
+    width: 135px;
+}
+.search{
+    position: absolute;
+    left: 0px;
+}
+
+.sf21{
+    position: absolute;
+    top: 480px;
+    left: 1000px;
+    font-family: Kanit;
+    color: white;
+    font-size: 22px;
+}
+
+.sf22{
+    position: absolute;
+    top: 460px;
+    left: 950px;
+    font-family: Kanit;
+    color: white;
+    font-size: 12px;
+}
+.menu{
+    position: absolute;
+    right: 0px;
+}
+.chevron{
+    position: absolute;
+    left: 700px;
+    top: 490px;
+}
+
+.more-info{
+    display: flex;
+    grid-row: auto;
+    position: absolute;
+    color: white;
+}
+
+.body-main {
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.link{
+    cursor: pointer;
+    color: #fff;
+    font-size: 10px;
+}
+
+.link-to{
+    margin-left: 120px;
+    margin-top: -5px;
+    gap: 25px;
+}
+.link:active{
+    text-decoration: overline;
+}
+.link:hover{
+    text-decoration: overline;
+}
+.carlos-sainz-jr{
+    position: absolute;
+}
+.csj-num{
+    position: absolute;
+    font-family: Kanit;
+    font-size: 182px;
+    top: 5px;
+    color: #fff;
+    left: 70px;
+    z-index: -1;
+    opacity: 50%;
+}
+.stats{
+    position: absolute;
+    top: 260px;
+    left: 45px;
+    color: white;
+}
+
+.stats > p {
+    margin-left: 50px;
+}
+
+.log-in{
+    position: absolute;
+    right: 75px;
+    top: 35px;
+    align-items: center;
+    height: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.helmet{
+    position: absolute;
+    top: -1px;
+}
+
+.links-to{
+    position: absolute;
+    top: 35px;
+    left: 430px;
+}
+
+.links-to > a {
+    margin-left: 25px;
+    font-size: 10px;
+    opacity: 50%;
+}
+
+.next-race{
+    position: absolute;
+    top: 130px;
+    right: 210px;
+    width: 400px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: inline;
+}
+
+.scc{
+    height: 80px;
+    width: fit-content;
+    position: absolute;
+    top: -30px;
+    left: 215px;
+    color: white;
+}
+
+.china {
+    font-weight: 700;
+    width: fit-content;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: white;
+}
+
+.next{
+    margin-right: 20px;
+    width: fit-content;
+    color: white;
+}
+
+.right{
+    position: absolute;
+    top: -20px;
+    left: 350px;
+}
+
+.tg-0lax{
+    font-size: 22px;
+    padding-right: 10px;
+    color: white;
+}
+.team{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    width: 600px;
+    height: 150px;
+    display: inline-block;
+}
+.ferrari{
+    height: 70px;
+    position: absolute;
+    right: 70px;
+    top: 0px;
+}
+
+.flag{
+    position: absolute;
+    left: 205px;
+    top: 90px;
+}
+
+.madrid{
+    position: absolute;
+    left: 33px;
+    color: white;
+}
